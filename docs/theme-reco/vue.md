@@ -99,6 +99,12 @@ categories:
 - vuex 状态管理实现通信
 :::
 
+### VUE3中所新增的父子通信方法
+::: details 答案
+- provide，inject
+- 父组件用provide提供数据，子组件用inject接收
+:::
+
 ### computed 和 watch对比
 ::: details 答案
 - computed：默认computed也是一个watcher具备缓存，只有当依赖的数据变化时才会计算, 当数据没有变化时, 它会读取缓存数据。如果一个数据依赖于其他数据，使用 computed。
