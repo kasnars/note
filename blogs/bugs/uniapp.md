@@ -4,7 +4,7 @@ date: 2022-02-22
 tags:
  - uni-app
 categories:
- - 技术总结
+ - BUG记录
 ---
 
 ### uni-app编写支付宝小程序时，地图组件的图片在安卓12下无法显示

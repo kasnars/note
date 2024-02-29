@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Kasnars Blog By Markdown
-tagline: 个人博客站
+tagline: 随缘写，哪天想起来就哪天写
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

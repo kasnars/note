@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "",
+  "title": "MyBlog",
   "description": "",
   "dest": "public",
   "base":'/markdown-blog/',
@@ -41,8 +41,16 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "前端知识点总结",
+            "text": "前端知识点",
             "link": "/docs/theme-reco/"
+          },
+          {
+            "text": "计算机基础",
+            "link": "/docs/computer/"
+          },
+          {
+            "text": "其他技术栈",
+            "link": "/docs/others/"
           }
         ]
       },
@@ -69,7 +77,16 @@ module.exports = {
         "ts",
         "vue",
         "react"
-      ]
+      ],
+      "/docs/computer/": [
+        "computerBase",
+        "internet",
+        "dataStructure",
+        "algorithm"
+      ],
+      "/docs/others/": [
+        "webgis",
+      ],
     },
     "type": "blog",
     "blogConfig": {
@@ -96,12 +113,12 @@ module.exports = {
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
     ],
-    "logo": "/logo.png",
+    "logo": "/wsq.webp",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "kasnars",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/wsqgif.gif",
     "record": "xxxx",
     "startYear": "2021"
   },
