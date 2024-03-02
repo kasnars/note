@@ -73,6 +73,7 @@ module.exports = {
     ],
     "sidebar": {
       "/docs/theme-reco/": [
+        "htmlcss",
         "js",
         "ts",
         "vue",
